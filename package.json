@@ -1,0 +1,27 @@
+{
+  "name": "shoe-show",
+  "description": "A restful-api server side application with express and mongodb for a classic shoe ecommerce.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbolfazlPanahiazar/shoe-show.git"
+  },
+  "author": "Abolfazl Panahiazar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AbolfazlPanahiazar/shoe-show/issues"
+  },
+  "homepage": "https://github.com/AbolfazlPanahiazar/shoe-show#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  }
+}
