@@ -1,8 +1,8 @@
 const express = require("express");
 const appRouter = express.Router();
 
-appRouter.get("/", (req, res) => {
-    res.send("app route")
-});
+const loginRouter = require("./login");
+
+appRouter.use("/login", loginRouter)
 
 module.exports = appRouter;
